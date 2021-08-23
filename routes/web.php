@@ -13,4 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/displaythesum', 'MyfirstController@index');
+Route::get('/displaythesum', 'MyfirstController@index');{};
+
+Route::get ('/subtraction',function(){
+	$num1=10;
+	$num2=1;
+	$result=$num1-$num2;
+	return "The sum of ".$num1." and ".$num2. "is" .$result;
+});
