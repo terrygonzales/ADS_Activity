@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/displaythesum', 'MyfirstController@index);
+Route::get('/displaythesum', 'MyfirstController@index');
