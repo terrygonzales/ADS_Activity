@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/displaythesum', 'MyfirstController@index');{};
 
-Route::get ('/product',function(){
-	$num1=3;
+Route::get ('/quotient',function(){
+	$num1=10;
 	$num2=2;
-	$result=$num1* $num2;
-	return "The product of ".$num1." and ".$num2. "is" .$result;
+	$result=$num1/$num2;
+	return "The quotient of ".$num1." and ".$num2. "is" .$result;
 });
